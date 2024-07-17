@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+.linhaNoMeio {
+    text-decoration: line-through;
+    text-decoration-thickness: 1.5px;
+}
+
+body {
+    background-color: #e7e7e7;
+    padding-top: 100px;
+}
+
+header {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form, ul {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    list-style-position: inside;
+}
